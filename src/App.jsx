@@ -6,9 +6,9 @@ import AboutSite from "./components/aboutSite";
 import BestSanctualessel from "./components/bestSanctualVessel";
 import SanctualVessel from "./components/sanctualVessel";
 import Artifact from "./seiibutu/artifact";
-import Character from "./charactors/character"
-
+import Character from "./showCharactor/character"
 import Footer from "./components/footer"
+
 export default function App() {
   return (
     <Router>
