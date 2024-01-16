@@ -7,19 +7,13 @@ export default function sanctualVessel() {
       <dl>
         <ul>
           <li>
-            <dt>
-              通常型 (物理型、攻撃参照アタッカーなど)
-              <dd>会心率 &times; 2 + 率ダメ + 攻撃力(%)</dd>
-            </dt>
+            <dt>通常型 (物理型、攻撃参照アタッカーなど)</dt>
+            <dd>会心率 &times; 2 + 率ダメ + 攻撃力(%)</dd>
           </li>
           <li>
             <dt>HP型(胡桃、ヌヴィレットなどのHP参照アタッカー)</dt>
-            <dd>会心率 &times; 2 + 率ダメ + HP(%)</dd>
           </li>
-          <li>
-            <dt>HP型(珊瑚宮心海、ベネットなどのHP参照ヒーラー)</dt>
-            <dd>会心率 &times; 2 + 率ダメ + HP(%)</dd>
-          </li>
+          <dd>会心率 &times; 2 + 率ダメ + HP(%)</dd>
         </ul>
       </dl>
     </div>
