@@ -8,7 +8,8 @@ import SanctualVessel from "./components/sanctualVessel";
 import Artifact from "./seiibutu/artifact";
 import Character from "./showCharactor/character"
 import Footer from "./components/footer"
-
+import ShowCharactor
+ from "./showCharactor/showCharacter";
 export default function App() {
   return (
     <Router>
@@ -23,6 +24,7 @@ export default function App() {
               <Route path="/bestSanctualVessel" element={<BestSanctualessel />} />
               <Route path="/artifact"element={<Artifact />} />
               <Route path="/characters"element={<Character />} />
+              <Route path="/showCharacter/:characterId" element={<ShowCharactor />} />
             </Routes>
           </div>
         </div>
