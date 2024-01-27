@@ -91,8 +91,6 @@ export default function SanctualVessel() {
         <select id="calcStatus" onChange={handleCalcChange} value={calcStatus}>
           <option value="normal">通常型</option>
           <option value="hp">HP型</option>
-          <option value="wisdom">熟知型</option>
-          <option value="healer">ヒーラー</option>
         </select>
         <br />
         <div>

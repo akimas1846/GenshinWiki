@@ -1,90 +1,93 @@
 body {
-    margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif;
-  }
-  
-  header, footer {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 10px;
-  }
-  
-  nav {
-    background-color: #666;
-    padding: 10px;
-  }
-  
-  .container {
-    display: flex;
-    justify-content: space-between;
-    align-items: stretch;
-    padding: 20px;
-  }
-  
-  .main {
-    flex-grow: 1;
-    background-color: #f2f2f2;
-    padding: 20px;
-  }
-  
-  .sidebar {
-    flex-basis: 200px;
-    background-color: #ddd;
-    padding: 20px;
-  }
-  
-  .sidebar nav
-  {
-    background-color: #ffffff;
-  }
-  .sidebar nav ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-  }
-  
-  .sidebar nav li {
-    margin-bottom: 10px;
-    border: 1px solid #ccc;
-    padding: 5px;
-    text-align: center;
-  }
-  
-  .sidebar nav a {
-    text-decoration: none;
-    color: #333;
-    font-weight: bold;
-  }
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
 
-  .character-details {
-    display: flex;
-    align-items: center;
-  }
-  
-  .character-image img {
-    width: 150px; 
-    height: auto; 
-    margin-right: 20px;
-  }
-  
-  .character-info {
-    flex: 1;
-  }
+header,
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
 
-  .artifact-details {
-    display: flex;
-    align-items: center;
-  }
-  
-  .artifact-image img {
-    width: 150px; 
-    height: auto; 
-    margin-right: 20px;
-  }
-  
-  .artifact-info {
-    flex: 1;
-  }
-  
+nav {
+  background-color: #666;
+  padding: 10px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  padding: 20px;
+}
+
+.main {
+  flex-grow: 1;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.sidebar {
+  flex-basis: 200px;
+  min-width: 200px;
+  background-color: #ddd;
+  padding: 20px;
+}
+.sidebar h2 {
+  text-align: center;
+}
+.sidebar nav {
+  background-color: #ffffff;
+}
+.sidebar nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar nav li {
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  padding: 5px;
+  text-align: center;
+}
+
+.sidebar nav a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+.character-details {
+  display: flex;
+  align-items: center;
+}
+
+.character-image img {
+  width: 150px;
+  height: auto;
+  margin-right: 20px;
+}
+
+.character-info {
+  flex: 1;
+}
+
+.artifact-details {
+  flex-basis: 200px;
+  align-items: center;
+  word-wrap: break-word;
+}
+
+.artifact-image img {
+  width: 150px;
+  height: auto;
+  margin-right: 20px;
+}
+
+.artifact-info {
+  flex: auto;
+}
