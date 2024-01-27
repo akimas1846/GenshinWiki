@@ -57,3 +57,19 @@ body {
     color: #333;
     font-weight: bold;
   }
+
+  .character-details {
+    display: flex;
+    align-items: center;
+  }
+  
+  .character-image img {
+    width: 150px; 
+    height: auto; 
+    margin-right: 20px;
+  }
+  
+  .character-info {
+    flex: 1;
+  }
+  

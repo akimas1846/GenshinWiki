@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 
 export default function SanctualVessel() {
   const [parts, setParts] = useState("flower");
@@ -222,6 +222,7 @@ export default function SanctualVessel() {
           <dd>会心率 &times; 2 + 率ダメ + HP(%)</dd>
         </ul>
       </dl>
+      <p>今後も随時更新予定！</p>
     </div>
   );
 }

@@ -10,6 +10,7 @@ import Character from "./showCharactor/character"
 import Footer from "./components/footer"
 import ShowCharactor
  from "./showCharactor/showCharacter";
+import ShowArtifact from "./seiibutu/showArtifact";
 export default function App() {
   return (
     <Router>
@@ -25,6 +26,7 @@ export default function App() {
               <Route path="/artifact"element={<Artifact />} />
               <Route path="/characters"element={<Character />} />
               <Route path="/showCharacter/:characterId" element={<ShowCharactor />} />
+              <Route path="/showArtifact/:artifactId" element={<ShowArtifact />} />
             </Routes>
           </div>
         </div>

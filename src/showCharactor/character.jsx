@@ -1,9 +1,5 @@
-import React, { useState, useEffect } from "react";
-import { Link, useParams } from "react-router-dom";
-
-function CharacterDetail({ characterId }) {
-  return <p>キャラクターID: {characterId}</p>;
-}
+import { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
 
 function CharacterList({ charactersData }) {
   return (
@@ -52,7 +48,11 @@ export default function Character() {
     <div>
       <h2>キャラクター一覧</h2>
       <label htmlFor="category">レアリティ選択:</label>
-      <select id="category" onChange={handleRarityChange} value={selectedRarity}>
+      <select
+        id="category"
+        onChange={handleRarityChange}
+        value={selectedRarity}
+      >
         <option value="all">全キャラクター</option>
         <option value="5">星５キャラクター</option>
         <option value="4">星４キャラクター</option>
