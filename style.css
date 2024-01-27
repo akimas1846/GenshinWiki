@@ -12,11 +12,14 @@ footer {
   padding: 10px;
 }
 
-nav {
+.headermenu nav {
   background-color: #666;
   padding: 10px;
 }
 
+nav {
+  padding: 10px;
+}
 .container {
   display: flex;
   justify-content: space-between;
@@ -90,4 +93,24 @@ nav {
 
 .artifact-info {
   flex: auto;
+}
+
+.aboutbuild img {
+  width: 70px;
+  height: auto;
+  margin-right: 10px;
+}
+
+.artifact-description {
+  display: flex;
+  align-items: center;
+}
+
+.artifact-description img {
+  width: 70px;
+  height: auto;
+  margin-right: 10px;
+}
+.artifact-description p {
+  margin-right: 10px;
 }
