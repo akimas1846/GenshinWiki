@@ -9,7 +9,7 @@ function CharacterDetail({ characterData, characterId }) {
   return (
     <div className="character-details">
         <div className="character-image">
-            <img src={`../../public/images/characters/${characterId}.jpg`} alt={characterData.name}/>
+            <img src={`/public/images/characters/${characterId}.jpg`} alt={characterData.name}/>
         </div>
       <div className="character-info">
         <h3>キャラクター名: {characterData.name}</h3>
