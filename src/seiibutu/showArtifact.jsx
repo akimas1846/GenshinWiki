@@ -14,7 +14,7 @@ function ArtifactDetail({ artifactData }) {
       <div className="artifact-details">
         <div className="artifact-image">
           <img
-            src={`../../images/artifacts/${artifactData.flower.name}.jpg`}
+            src={`../../images/artifacts/${flower.name}.jpg`}
             alt={artifactData.name}
           />
         </div>
