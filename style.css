@@ -72,4 +72,19 @@ body {
   .character-info {
     flex: 1;
   }
+
+  .artifact-details {
+    display: flex;
+    align-items: center;
+  }
+  
+  .artifact-image img {
+    width: 150px; 
+    height: auto; 
+    margin-right: 20px;
+  }
+  
+  .artifact-info {
+    flex: 1;
+  }
   
